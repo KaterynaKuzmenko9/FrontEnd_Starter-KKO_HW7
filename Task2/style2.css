@@ -1,0 +1,17 @@
+body{
+    background-color: bisque;
+
+}
+
+input{
+    border: none;
+    width: 200px;
+    height: 40px;
+}
+
+input[type="submit"]{
+    background: red;
+    color: white;
+    width:120px;
+    border: none;
+}

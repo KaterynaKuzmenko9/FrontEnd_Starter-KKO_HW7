@@ -1,0 +1,16 @@
+p{
+    color: lightgrey;
+}
+
+input {
+    width: 160px;
+    height: 40px;
+    border: solid lightgray 2px;
+}
+
+input[type="submit"]{
+    background-color: lightseagreen;
+    color: white;
+    height: 40px;
+    border: none;
+}

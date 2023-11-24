@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Зверстайте форму, приклад на зображенні -->
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+<form> 
+  
+  <input type="text" name="login" value="Введіть логін"/>
+<input type="password" name="pass" placeholder="Введіть пароль"/>
+<input type="submit" value="Надіслати" />
+
+<p> 
+  <label> Пароль:
+  <input type="password" name="pass" id="pass"/>
+</label>
+
+</p>
+<p> 
+  <input type="reset" value="Скинути"/>
+</p>
+
+
+  <p>
+    <input type="checkbox" checked name="html"/>
+    <label>
+      HTML&CSS
+    </label>
+  </p>
+    <p>
+      <input type="checkbox" checked name="html"/>
+      <label>
+        HTML&CSS
+      </label>
+    </p>
+      <p>
+        <input type="checkbox" checked name="html"/>
+        <label>
+          HTML&CSS
+        </label>
+
+  </p>
+
+  <button type="submit"> Звичайна кнопка</button>
+
+  <h2> Виберіть зручний для Вас час</h2>
+  <p>
+    <input type="radio" name="time" value="morning"/>
+    <label>9:00-11:00</label>
+  </p>
+  <p>
+    <input type="radio" name="time" value="dinner"/>
+    <label>14:00-16:00</label>
+  </p>
+
+  <h4>Дата та час</h4>
+  <p>
+    <label for="id"> Місцева дата та час</label>
+    <input type="datetime-local" id="id" name="localdate">
+  </p>
+<p>
+  <label for="dt"> Дата та час </label>
+  <input type="datetime" id="dt" name="datetime">
+  
+</p>
+
+<p>
+  <label for="number">Поле для введення чисел </label>
+  <input type="number"min="10" max="50" step="5" value="15">
+</p>
+
+
+</form>
+</body>
+</html>
